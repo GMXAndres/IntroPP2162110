@@ -2,7 +2,7 @@
 
   Purpose:
 
-    TRANSFORM is an example of a transformation of an EDP using some parameters for Intro PP Students.
+    The purpose of parallelizing that code is to enhance its performance by concurrently summing the elements of a list using multiple execution threads. This approach becomes valuable when dealing with large datasets or when there is a need to reduce the execution time of intensive computational operations.
 
   Example:
 
@@ -14,11 +14,11 @@
 
   Modified:
 
-    24 September 2003
+    21 march 2024
 
   Author:
-  George 
+  Andres 
   OpenMP Modification:
-  27 July 2020 by Levy Rincon, Universidad Industrial de Santander oaperez76@misena.edu.co                 
-  This OpenMP Modification makes a parallelization of the original Code...  
+  21 march 2024 by Oscar Abdres Perez, Universidad Industrial de Santander oaperez76@misena.edu.co                 
+  This OpenMP Modification makes parallelizing the code involves distributing the workload among several threads, allowing multiple operations to be performed simultaneously on different parts of the list. This concurrency can lead to a significant acceleration compared to the sequential execution of the same code. 
 */
